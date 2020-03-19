@@ -114,7 +114,7 @@ module openconfig-platform-linecard {
 
     uses linecard-top {
       when "current()/oc-platform:state/" +
-        "oc-platform:type = 'LINECARD'" {
+        "oc-platform:type = 'oc-platform-types:LINECARD'" {
         description
           "Augment is active when component is of type LINECARD";
       }
